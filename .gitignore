@@ -1,0 +1,30 @@
+bsad.zip
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java class files, build artifacts, and logs
+*.class
+*.jar
+*.war
+*.ear
+*.log
+/target/        # Maven build output directory
+/build/         # Gradle build output directory
+/out/           # Common output directory for IntelliJ
+
+# Annotation processing output
+/generated-sources/
+/generated-test-sources/
+
+# Mac OS specific files
+.DS_Store
+
+# Eclipse project files (in case others on your team use Eclipse)
+.project
+.classpath
+.settings/
+
